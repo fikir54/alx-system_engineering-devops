@@ -24,7 +24,6 @@ then
     $0 stop >& /dev/null
     $0 start >& /dev/null
     echo "manage_my_process restarted"
-
 else
     echo "Usage: manage_my_process {start|stop|restart}"
 fi
